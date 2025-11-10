@@ -1,1 +1,0 @@
-# ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER
