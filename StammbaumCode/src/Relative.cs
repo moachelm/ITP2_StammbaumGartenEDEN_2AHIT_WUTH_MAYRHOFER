@@ -1,6 +1,6 @@
 namespace FamilyTree.Models;
 
-public class Relative Person
+public class Relative :Person
 {
     
 }
