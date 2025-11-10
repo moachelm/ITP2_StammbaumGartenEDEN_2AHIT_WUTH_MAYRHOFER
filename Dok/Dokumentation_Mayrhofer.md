@@ -1,1 +1,1 @@
-10.11.2025 erstellen des Codespaces
+10.11.2025 erstellen des Codespaces un der Klassen Relative, FamilyTree & Decedent
