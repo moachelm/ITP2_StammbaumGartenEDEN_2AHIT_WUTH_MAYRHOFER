@@ -6,8 +6,7 @@ public class Person
     protected string _lastname;
     protected string _placeOfResidence;
     protected DateOnly _birthday;
-    protected string _infos;
-    protected string _diseases;
+
     protected bool _livingstate; // true == alive, false == passed away
 
     protected Person(string firstname, string lastname, string placeOfResidence, DateOnly birthday)
@@ -49,15 +48,4 @@ public class Person
         set => _livingstate = value;
     }
 
-    protected string Infos
-    {
-        get => _infos;
-        set => _infos = value;
-    }
-
-    protected string Diseases
-    {
-        get => _diseases;
-        set => _diseases = value;
-    }
 }
