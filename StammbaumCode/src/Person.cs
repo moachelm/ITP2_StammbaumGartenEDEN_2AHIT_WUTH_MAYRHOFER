@@ -12,20 +12,20 @@ public class Person
 
     protected Person(string firstname, string lastname, string placeOfResidence, DateOnly birthday)
     {
-      _firstname = firstname;
-      _lastname = lastname;
-      _placeOfResidence = placeOfResidence;
-      _birthday = birthday; 
+        _firstname = firstname;
+        _lastname = lastname;
+        _placeOfResidence = placeOfResidence;
+        _birthday = birthday;
     }
 
-    protected string Firstname
+    public string Firstname
     {
         get => _firstname;
         set => _firstname = value;
     }
 
 
-    protected string Lastname
+    public string Lastname
     {
         get => _lastname;
         set => _lastname = value;
@@ -60,5 +60,4 @@ public class Person
         get => _diseases;
         set => _diseases = value;
     }
-
-} 
+}

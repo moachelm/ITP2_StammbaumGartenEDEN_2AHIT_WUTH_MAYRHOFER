@@ -39,13 +39,19 @@ public class FamilyTree
     }
 
 
-    public void Dissplay()
-    {
-        
 
-        
+public void Display()
+{
+    Console.WriteLine("=== FAMILY TREE ===");
+    Console.WriteLine($"Person: {_personfortree.Firstname} {_personfortree.Lastname}");
+    Console.WriteLine();
+
+    foreach (var entry in _relative)
+    {
+        Console.WriteLine($"{entry.Key}: {entry.Value.Firstname} {entry.Value.Lastname}");
     }
 
+    Console.WriteLine("===================");
 }
 
-
+}
