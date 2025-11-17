@@ -1,0 +1,12 @@
+C:\Users\micha\Documents\3AHIT_2025_2026\ITP_KL\Wuth_Mayrhofe_Stammbaum\Prgm\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\StammbaumCode\src\bin\Debug\net9.0\FamilyTree.Models.deps.json
+C:\Users\micha\Documents\3AHIT_2025_2026\ITP_KL\Wuth_Mayrhofe_Stammbaum\Prgm\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\StammbaumCode\src\bin\Debug\net9.0\FamilyTree.Models.dll
+C:\Users\micha\Documents\3AHIT_2025_2026\ITP_KL\Wuth_Mayrhofe_Stammbaum\Prgm\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\StammbaumCode\src\bin\Debug\net9.0\FamilyTree.Models.pdb
+C:\Users\micha\Documents\3AHIT_2025_2026\ITP_KL\Wuth_Mayrhofe_Stammbaum\Prgm\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\StammbaumCode\src\obj\Debug\net9.0\FamilyTree.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\Documents\3AHIT_2025_2026\ITP_KL\Wuth_Mayrhofe_Stammbaum\Prgm\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\StammbaumCode\src\obj\Debug\net9.0\FamilyTree.Models.AssemblyInfoInputs.cache
+C:\Users\micha\Documents\3AHIT_2025_2026\ITP_KL\Wuth_Mayrhofe_Stammbaum\Prgm\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\StammbaumCode\src\obj\Debug\net9.0\FamilyTree.Models.AssemblyInfo.cs
+C:\Users\micha\Documents\3AHIT_2025_2026\ITP_KL\Wuth_Mayrhofe_Stammbaum\Prgm\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\StammbaumCode\src\obj\Debug\net9.0\FamilyTree.Models.csproj.CoreCompileInputs.cache
+C:\Users\micha\Documents\3AHIT_2025_2026\ITP_KL\Wuth_Mayrhofe_Stammbaum\Prgm\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\StammbaumCode\src\obj\Debug\net9.0\FamilyTree.Models.sourcelink.json
+C:\Users\micha\Documents\3AHIT_2025_2026\ITP_KL\Wuth_Mayrhofe_Stammbaum\Prgm\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\StammbaumCode\src\obj\Debug\net9.0\FamilyTree.Models.dll
+C:\Users\micha\Documents\3AHIT_2025_2026\ITP_KL\Wuth_Mayrhofe_Stammbaum\Prgm\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\StammbaumCode\src\obj\Debug\net9.0\refint\FamilyTree.Models.dll
+C:\Users\micha\Documents\3AHIT_2025_2026\ITP_KL\Wuth_Mayrhofe_Stammbaum\Prgm\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\StammbaumCode\src\obj\Debug\net9.0\FamilyTree.Models.pdb
+C:\Users\micha\Documents\3AHIT_2025_2026\ITP_KL\Wuth_Mayrhofe_Stammbaum\Prgm\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\StammbaumCode\src\obj\Debug\net9.0\ref\FamilyTree.Models.dll

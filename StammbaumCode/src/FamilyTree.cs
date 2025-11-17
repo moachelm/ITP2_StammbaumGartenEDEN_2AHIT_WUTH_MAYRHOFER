@@ -13,30 +13,29 @@ public class FamilyTree
         Mother,
         Father,
 
-
     }
 
-    private Dictionary<Relationtypes, Relative> _relative = new Dictionary<Relationtypes, Relative>();
+    private Dictionary<Relative, Relationtypes> _relative = new Dictionary<Relative,Relationtypes>();
 
     public FamilyTree(Decedent person)
     {
         _personfortree = person;
     }
 
-    public void AddRelative(Relative elative, string type)
+  public void AddRelative(Relative relative, string type)
+{
+    if (Enum.TryParse(typeof(Relationtypes), type, true, out var result))
     {
+        Relationtypes relationType = (Relationtypes)result;
 
-        if (Enum.TryParse(typeof(Relationtypes), type, true, out var result))
-        {
-            Relationtypes relationType = (Relationtypes)result;
-
-            _relative.Add(relationType, elative);
-        }
-        else
-        {
-            Console.WriteLine($"Invalid relation type: {type}");
-        }
+        _relative.Add(relative, relationType);
     }
+    else
+    {
+        Console.WriteLine($"Invalid relation type: {type}");
+    }
+}
+
 
 
 
@@ -48,10 +47,14 @@ public void Display()
 
     foreach (var entry in _relative)
     {
-        Console.WriteLine($"{entry.Key}: {entry.Value.Firstname} {entry.Value.Lastname}");
+        Relative relative = entry.Key;
+        Relationtypes type = entry.Value;
+
+        Console.WriteLine($"{type}: {relative.Firstname} {relative.Lastname}");
     }
 
     Console.WriteLine("===================");
 }
+
 
 }
