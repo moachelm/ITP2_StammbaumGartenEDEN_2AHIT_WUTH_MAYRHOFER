@@ -7,7 +7,7 @@ public class Relative : Person
       _livingstate = true;  
     }
 
-
+  
 
 
 

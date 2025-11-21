@@ -12,49 +12,59 @@ public class FamilyTree
         Daughter,
         Mother,
         Father,
-
+        Grandmother,
+        Grandfather,
+        Granddaughter,
+        Grandson,
+        Cousin_Male,
+        Cousin_Female
     }
 
-    private Dictionary<Relative, Relationtypes> _relative = new Dictionary<Relative,Relationtypes>();
+    private Dictionary<Relative, Relationtypes> _relative = new Dictionary<Relative, Relationtypes>();
 
     public FamilyTree(Decedent person)
     {
         _personfortree = person;
     }
 
-  public void AddRelative(Relative relative, string type)
-{
-    if (Enum.TryParse(typeof(Relationtypes), type, true, out var result))
+    public void AddRelative(Relative relative, string type)
     {
-        Relationtypes relationType = (Relationtypes)result;
+        if (Enum.TryParse(typeof(Relationtypes), type, true, out var result))
+        {
+            Relationtypes relationType = (Relationtypes)result;
 
-        _relative.Add(relative, relationType);
-    }
-    else
-    {
-        Console.WriteLine($"Invalid relation type: {type}");
-    }
-}
-
-
-
-
-public void Display()
-{
-    Console.WriteLine("=== FAMILY TREE ===");
-    Console.WriteLine($"Person: {_personfortree.Firstname} {_personfortree.Lastname}");
-    Console.WriteLine();
-
-    foreach (var entry in _relative)
-    {
-        Relative relative = entry.Key;
-        Relationtypes type = entry.Value;
-
-        Console.WriteLine($"{type}: {relative.Firstname} {relative.Lastname}");
+            _relative.Add(relative, relationType);
+        }
+        else
+        {
+            Console.WriteLine($"Invalid relation type: {type}");
+        }
     }
 
-    Console.WriteLine("===================");
-}
+    public void Display()
+    {
+        Console.WriteLine("=== FAMILY TREE ===");
+        Console.WriteLine($"Person: {_personfortree.Firstname} {_personfortree.Lastname} ✞");
+        Console.WriteLine();
 
+        foreach (var entry in _relative)
+        {
+            Relative relative = entry.Key;
+            Relationtypes type = entry.Value;
 
+            Console.WriteLine($"{type}: {relative.Firstname} {relative.Lastname}");
+        }
+
+        Console.WriteLine("===================");
+    }
+
+    public List<Relative> GetAllRelatives()
+    {
+        return _relative.Keys.ToList();
+    }
+
+    public bool RemoveRelative(Relative relative)
+    {
+        return _relative.Remove(relative);
+    }
 }
