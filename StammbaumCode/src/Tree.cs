@@ -44,7 +44,7 @@ public class Tree
     public void Display()
     {
         Console.WriteLine("=== Stammbaum ===");
-        Console.WriteLine($"Person: {_personfortree.Firstname} {_personfortree.Lastname} ✞");
+        Console.WriteLine($"Person: {_personfortree.Firstname} {_personfortree.Lastname} Alter: {_personfortree.DeathAge} ✞");
         Console.WriteLine();
 
         foreach (var entry in _relative)
