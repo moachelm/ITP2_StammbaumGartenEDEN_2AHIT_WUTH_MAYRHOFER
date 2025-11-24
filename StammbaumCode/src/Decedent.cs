@@ -5,6 +5,16 @@ public class Decedent : Person
     private DateOnly _deathDate;
     private string _causeOfDeath;
 
+    public DateOnly Birthday
+    {
+        get{return _birthday;}
+    }
+
+        public DateOnly Deathdate
+    {
+        get{return _deathDate;}
+    }
+
     public Decedent(string firstname, string lastname, string placeOfResidence, DateOnly birthday, DateOnly Deathdate) : base(firstname, lastname)
     {
 
