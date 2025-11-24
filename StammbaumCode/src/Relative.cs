@@ -1,13 +1,18 @@
+using System.IO.Compression;
+
 namespace FamilyTree.Models;
 
 public class Relative : Person
 {
-    public Relative(string firstname, string lastname, string placeOfResidence, DateOnly birthday) : base(firstname, lastname, placeOfResidence, birthday)
+    public Relative(string firstname, string lastname) : base(firstname, lastname)
     {
-      _livingstate = true;  
+      
     }
 
-  
+    public void SetLivingState(bool b)
+    {
+    _livingstate = b;    
+    }
 
 
 

@@ -2,27 +2,27 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FamilyTree.Models;
 
-public class FamilyTree
+public class Tree
 {
     private Decedent _personfortree;
 
     enum Relationtypes
     {
-        Son,
-        Daughter,
-        Mother,
-        Father,
-        Grandmother,
-        Grandfather,
-        Granddaughter,
-        Grandson,
-        Cousin_Male,
-        Cousin_Female
+        Sohn,
+        Tochter,
+        Mutter,
+        Vater,
+        Oma,
+        Opa,
+        Enkeltochter,
+        Enkelsohn,
+        Cousine,
+        Cousin
     }
 
     private Dictionary<Relative, Relationtypes> _relative = new Dictionary<Relative, Relationtypes>();
 
-    public FamilyTree(Decedent person)
+    public Tree(Decedent person)
     {
         _personfortree = person;
     }
@@ -43,7 +43,7 @@ public class FamilyTree
 
     public void Display()
     {
-        Console.WriteLine("=== FAMILY TREE ===");
+        Console.WriteLine("=== Stammbaum ===");
         Console.WriteLine($"Person: {_personfortree.Firstname} {_personfortree.Lastname} ✞");
         Console.WriteLine();
 

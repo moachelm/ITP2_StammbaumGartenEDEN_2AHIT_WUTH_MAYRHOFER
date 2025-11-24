@@ -9,12 +9,10 @@ public class Person
 
     protected bool _livingstate; // true == alive, false == passed away
 
-    protected Person(string firstname, string lastname, string placeOfResidence, DateOnly birthday)
+    protected Person(string firstname, string lastname)
     {
         _firstname = firstname;
         _lastname = lastname;
-        _placeOfResidence = placeOfResidence;
-        _birthday = birthday;
     }
 
     public string Firstname
