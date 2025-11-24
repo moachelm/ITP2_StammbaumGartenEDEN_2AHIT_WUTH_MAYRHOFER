@@ -5,11 +5,15 @@ namespace FamilyTreeApp;
 public class Program
 {
     static Tree? tree;
+    
 
     public static void Main(string[] args)
     {
+        List<Tree> trees = new List<Tree>();
+
         Console.WriteLine("=== Garten Eden - Stammbaum Programm ===");
         bool running = true;
+        bool mode = true;
 
         while (running)
         {
@@ -92,7 +96,7 @@ public class Program
 
         PrintRelativeList(list);
         Console.Write("Wähle Person (Nummer): ");
-        if (!int.TryParse(Console.ReadLine(), out int index)) { Console.WriteLine("Ungültige Eingabe."); return; }
+        if (!int.TryParse(Console.ReadLine(),out int index)) { Console.WriteLine("Ungültige Eingabe."); return; }
         index--;
 
         if (index < 0 || index >= list.Count) { Console.WriteLine("Ungültige Auswahl!"); return; }

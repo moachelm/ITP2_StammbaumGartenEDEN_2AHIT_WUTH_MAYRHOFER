@@ -6,15 +6,12 @@ public class Relative : Person
 {
     public Relative(string firstname, string lastname) : base(firstname, lastname)
     {
-      
+      _livingstate = true;
     }
 
     public void SetLivingState(bool b)
     {
     _livingstate = b;    
     }
-
-
-
 
 }
