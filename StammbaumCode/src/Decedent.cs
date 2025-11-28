@@ -7,12 +7,14 @@ public class Decedent : Person
 
     public DateOnly Birthday
     {
-        get{return _birthday;}
+        get => _birthday;
+        set => _birthday = value;
     }
 
         public DateOnly Deathdate
     {
-        get{return _deathDate;}
+        get => _deathDate;
+        set => _deathDate = value;
     }
 
     public Decedent(string firstname, string lastname, string placeOfResidence, DateOnly birthday, DateOnly Deathdate) : base(firstname, lastname)

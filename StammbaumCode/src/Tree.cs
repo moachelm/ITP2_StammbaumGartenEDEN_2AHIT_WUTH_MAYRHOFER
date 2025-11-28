@@ -6,6 +6,11 @@ public class Tree
 {
     private Decedent _personfortree;
 
+    public Decedent PersonForTree
+    {
+        get => _personfortree;
+    }
+
     enum Relationtypes
     {
         Sohn,
@@ -40,6 +45,8 @@ public class Tree
             Console.WriteLine($"Invalid relation type: {type}");
         }
     }
+
+
 
     public void Display()
     {
