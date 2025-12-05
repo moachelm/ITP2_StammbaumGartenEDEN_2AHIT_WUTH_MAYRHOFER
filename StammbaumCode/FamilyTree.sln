@@ -9,7 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyTree.Models", "src\Fa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{5D20AA90-6969-D8BD-9DCD-8634F4692FDA}"
 	ProjectSection(SolutionItems) = preProject
-		samples\Webapp.xaml = samples\Webapp.xaml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyTreeApp", "samples\FamilyTreeApp.csproj", "{56FD2D42-7A65-4048-91BB-025D3B83C991}"

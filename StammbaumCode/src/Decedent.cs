@@ -1,5 +1,8 @@
 namespace FamilyTree.Models;
 
+/// <summary>
+/// The Decented and inheritancs from Person
+/// </summary>
 public class Decedent : Person
 {
     private DateOnly _deathDate;
@@ -32,6 +35,10 @@ public class Decedent : Person
         set => _causeOfDeath = value;
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns></returns>
     public int DeathAge()
     {
         return (_deathDate.DayNumber - _birthday.DayNumber) / 365;

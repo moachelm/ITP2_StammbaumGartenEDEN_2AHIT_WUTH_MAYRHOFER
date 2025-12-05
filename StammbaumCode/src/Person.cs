@@ -1,5 +1,8 @@
 ﻿namespace FamilyTree.Models;
 
+/// <summary>
+/// A Person - Basicclass
+/// </summary>
 public class Person
 {
     protected string _firstname;

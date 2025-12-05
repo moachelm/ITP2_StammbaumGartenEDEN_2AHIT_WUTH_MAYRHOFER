@@ -2,6 +2,9 @@ using System.IO.Compression;
 
 namespace FamilyTree.Models;
 
+/// <summary>
+/// The Relative and inheritancs from Person
+/// </summary>
 public class Relative : Person
 {
     public Relative(string firstname, string lastname) : base(firstname, lastname)
@@ -9,6 +12,10 @@ public class Relative : Person
       _livingstate = true;
     }
 
+  /// <summary>
+  /// A Method to set if the relative is living or not
+  /// </summary>
+  /// <param name="b"></param>
     public void SetLivingState(bool b)
     {
     _livingstate = b;    

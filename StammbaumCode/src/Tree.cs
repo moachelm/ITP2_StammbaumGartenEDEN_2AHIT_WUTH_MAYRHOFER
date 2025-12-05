@@ -2,6 +2,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FamilyTree.Models;
 
+/// <summary>
+/// The class Tree
+/// </summary>
 public class Tree
 {
     private Decedent _personfortree;
@@ -32,6 +35,11 @@ public class Tree
         _personfortree = person;
     }
 
+    /// <summary>
+    /// A Mehtod to Add a Relative to the Tree
+    /// </summary>
+    /// <param name="relative">A Relative</param>
+    /// <param name="type">Type of Relationsship</param>
     public void AddRelative(Relative relative, string type)
     {
         if (Enum.TryParse(typeof(Relationtypes), type, true, out var result))
@@ -65,6 +73,10 @@ public class Tree
         Console.WriteLine("===================");
     }
 
+    /// <summary>
+    /// A Method to return all relatives
+    /// </summary>
+    /// <returns>A list of relatives</returns>
     public List<Relative> GetAllRelatives()
     {
         return _relative.Keys.ToList();
