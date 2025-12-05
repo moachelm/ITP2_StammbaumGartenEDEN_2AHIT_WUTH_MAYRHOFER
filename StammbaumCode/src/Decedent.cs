@@ -36,7 +36,7 @@ public class Decedent : Person
     }
 
     /// <summary>
-    /// 
+    /// A Mehtod that calculates the DeathAge
     /// </summary>
     /// <returns></returns>
     public int DeathAge()

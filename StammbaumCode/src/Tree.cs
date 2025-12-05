@@ -14,19 +14,7 @@ public class Tree
         get => _personfortree;
     }
 
-    enum Relationtypes
-    {
-        Sohn,
-        Tochter,
-        Mutter,
-        Vater,
-        Oma,
-        Opa,
-        Enkeltochter,
-        Enkelsohn,
-        Cousine,
-        Cousin
-    }
+
 
     private Dictionary<Relative, Relationtypes> _relative = new Dictionary<Relative, Relationtypes>();
 
@@ -82,6 +70,11 @@ public class Tree
         return _relative.Keys.ToList();
     }
 
+    /// <summary>
+    /// A Method to remove a relative from the list
+    /// </summary>
+    /// <param name="relative">the relative person</param>
+    /// <returns>the list without the removed relative</returns>
     public bool RemoveRelative(Relative relative)
     {
         return _relative.Remove(relative);
