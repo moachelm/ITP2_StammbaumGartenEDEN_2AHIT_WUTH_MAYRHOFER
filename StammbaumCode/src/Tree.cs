@@ -14,7 +14,7 @@ public class Tree
         get => _personfortree;
     }
 
-
+ 
 
     private Dictionary<Relative, Relationtypes> _relative = new Dictionary<Relative, Relationtypes>();
 

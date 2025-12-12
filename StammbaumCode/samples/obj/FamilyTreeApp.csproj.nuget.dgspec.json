@@ -17,14 +17,14 @@
           "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net9.0-windows"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net9.0-windows7.0": {
+            "targetAlias": "net9.0-windows",
             "projectReferences": {
               "C:\\Users\\micha\\Documents\\3AHIT_2025_2026\\ITP_KL\\Wuth_Mayrhofe_Stammbaum\\Prgm\\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\\StammbaumCode\\src\\FamilyTree.Models.csproj": {
                 "projectPath": "C:\\Users\\micha\\Documents\\3AHIT_2025_2026\\ITP_KL\\Wuth_Mayrhofe_Stammbaum\\Prgm\\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\\StammbaumCode\\src\\FamilyTree.Models.csproj"
@@ -45,8 +45,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
           "imports": [
             "net461",
             "net462",
@@ -61,6 +61,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"

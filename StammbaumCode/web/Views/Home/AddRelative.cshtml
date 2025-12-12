@@ -1,0 +1,38 @@
+@{
+    ViewBag.Title = "Verwandten hinzufügen";
+}
+
+<div class="container mt-5">
+    <h1>Verwandten hinzufügen</h1>
+    
+    @if (!string.IsNullOrEmpty(ViewBag.Error))
+    {
+        <div class="alert alert-danger">@ViewBag.Error</div>
+    }
+    
+    <form method="post" class="mt-3">
+        <div class="mb-3">
+            <label for="firstname" class="form-label">Vorname</label>
+            <input type="text" class="form-control" id="firstname" name="firstname" required>
+        </div>
+        
+        <div class="mb-3">
+            <label for="lastname" class="form-label">Nachname</label>
+            <input type="text" class="form-control" id="lastname" name="lastname" required>
+        </div>
+        
+        <div class="mb-3">
+            <label for="relationtype" class="form-label">Verwandtschafts-Typ</label>
+            <select class="form-control" id="relationtype" name="relationtype" required>
+                <option value="">-- Auswählen --</option>
+                <option value="Sohn">Sohn</option>
+                <option value="Tochter">Tochter</option>
+                <option value="Vater">Vater</option>
+                <option value="Mutter">Mutter</option>
+            </select>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Hinzufügen</button>
+        <a href="@Url.Action("ViewTree", new { id = ViewBag.Id })" class="btn btn-secondary">Abbrechen</a>
+    </form>
+</div>
