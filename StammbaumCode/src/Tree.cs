@@ -14,10 +14,12 @@ public class Tree
         get => _personfortree;
     }
 
- 
-
     private Dictionary<Relative, Relationtypes> _relative = new Dictionary<Relative, Relationtypes>();
 
+    /// <summary>
+    /// Constructor of Tree
+    /// </summary>
+    /// <param name="person">the decendent person</param>
     public Tree(Decedent person)
     {
         _personfortree = person;
@@ -42,8 +44,9 @@ public class Tree
         }
     }
 
-
-
+    /// <summary>
+    /// Method to display the tree
+    /// </summary>
     public void Display()
     {
         Console.WriteLine("=== Stammbaum ===");

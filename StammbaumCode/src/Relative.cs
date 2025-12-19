@@ -13,9 +13,9 @@ public class Relative : Person
     }
 
   /// <summary>
-  /// A Method to set if the relative is living or not
+  /// A Method to set if the relative is living or not, true = alive, false = passed away
   /// </summary>
-  /// <param name="b"></param>
+  /// <param name="b">the bool</param>
     public void SetLivingState(bool b)
     {
     _livingstate = b;    

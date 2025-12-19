@@ -12,6 +12,11 @@ public class Person
 
     protected bool _livingstate; // true == alive, false == passed away
 
+    /// <summary>
+    /// The Person
+    /// </summary>
+    /// <param name="firstname">firstname of person</param>
+    /// <param name="lastname">lastname of person</param>
     protected Person(string firstname, string lastname)
     {
         _firstname = firstname;

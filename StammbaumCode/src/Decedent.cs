@@ -38,7 +38,7 @@ public class Decedent : Person
     /// <summary>
     /// A Mehtod that calculates the DeathAge
     /// </summary>
-    /// <returns></returns>
+    /// <returns>The Age</returns>
     public int DeathAge()
     {
         return (_deathDate.DayNumber - _birthday.DayNumber) / 365;

@@ -1,4 +1,7 @@
 namespace FamilyTree.Models;
+/// <summary>
+/// Enum of Relationtypes
+/// </summary>
 public enum Relationtypes
 {
 
