@@ -14,7 +14,7 @@ public class Tree
         get => _personfortree;
     }
 
-    private Dictionary<Relative, Relationtypes> _relative = new Dictionary<Relative, Relationtypes>();
+    private List<Relation> _relations = new List<Relation>();
 
     /// <summary>
     /// Constructor of Tree
@@ -26,17 +26,21 @@ public class Tree
     }
 
     /// <summary>
-    /// A Mehtod to Add a Relative to the Tree
+    /// A Method to Add a Relative (possibly multiple relation types can exist for the same person)
     /// </summary>
     /// <param name="relative">A Relative</param>
-    /// <param name="type">Type of Relationsship</param>
+    /// <param name="type">Type of Relationsship as string</param>
     public void AddRelative(Relative relative, string type)
     {
         if (Enum.TryParse(typeof(Relationtypes), type, true, out var result))
         {
             Relationtypes relationType = (Relationtypes)result;
 
-            _relative.Add(relative, relationType);
+            // prevent adding exact duplicate (same person + same type)
+            if (!_relations.Any(r => ReferenceEquals(r.Person, relative) && r.Type == relationType))
+            {
+                _relations.Add(new Relation(relative, relationType));
+            }
         }
         else
         {
@@ -53,10 +57,10 @@ public class Tree
         Console.WriteLine($"Person: {_personfortree.Firstname} {_personfortree.Lastname} {_personfortree.DeathAge()} ✞");
         Console.WriteLine();
 
-        foreach (var entry in _relative)
+        foreach (var entry in _relations)
         {
-            Relative relative = entry.Key;
-            Relationtypes type = entry.Value;
+            Relative relative = entry.Person;
+            Relationtypes type = entry.Type;
 
             Console.WriteLine($"{type}: {relative.Firstname} {relative.Lastname}");
         }
@@ -65,21 +69,32 @@ public class Tree
     }
 
     /// <summary>
-    /// A Method to return all relatives
+    /// A Method to return all relations
     /// </summary>
-    /// <returns>A list of relatives</returns>
-    public List<Relative> GetAllRelatives()
+    /// <returns>A list of relations</returns>
+    public List<Relation> GetAllRelations()
     {
-        return _relative.Keys.ToList();
+        return _relations.ToList();
     }
 
     /// <summary>
-    /// A Method to remove a relative from the list
+    /// Backwards-compatible method: return a list of relatives (without relation types)
     /// </summary>
-    /// <param name="relative">the relative person</param>
-    /// <returns>the list without the removed relative</returns>
-    public bool RemoveRelative(Relative relative)
+    public List<Relative> GetAllRelatives()
     {
-        return _relative.Remove(relative);
+        return _relations.Select(r => r.Person).ToList();
+    }
+
+    /// <summary>
+    /// Remove a relation by index (as shown in UI list)
+    /// </summary>
+    /// <param name="index">index in the relation list</param>
+    public bool RemoveRelationAt(int index)
+    {
+        if (index < 0 || index >= _relations.Count)
+            return false;
+
+        _relations.RemoveAt(index);
+        return true;
     }
 }

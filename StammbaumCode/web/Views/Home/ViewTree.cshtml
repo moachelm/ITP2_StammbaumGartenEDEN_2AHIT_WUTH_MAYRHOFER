@@ -1,0 +1,59 @@
+@model FamilyTree.Models.Tree
+
+<div class="container mt-5">
+    <h1>Stammbaum Details</h1>
+    
+    @{
+        var person = Model.PersonForTree;
+        var relations = Model.GetAllRelations();
+    }
+    
+    <div class="card mb-4">
+        <div class="card-body">
+            <h5 class="card-title">@person.Firstname @person.Lastname</h5>
+            <p class="card-text">
+                <strong>Geburt:</strong> @person.Birthday<br>
+                <strong>Gestorben:</strong> @person.Deathdate
+            </p>
+        </div>
+    </div>
+    
+    <h3>Verwandte (@relations.Count)</h3>
+    
+    @if (relations.Count == 0)
+    {
+        <p class="text-muted">Keine Verwandten hinzugefügt.</p>
+    }
+    else
+    {
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th>Vorname</th>
+                    <th>Nachname</th>
+                    <th>Typ</th>
+                    <th>Aktion</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < relations.Count; i++)
+                {
+                    <tr>
+                        <td>@relations[i].Person.Firstname</td>
+                        <td>@relations[i].Person.Lastname</td>
+                        <td>@relations[i].Type</td>
+                        <td>
+                            <a href="@Url.Action("RemoveRelative", new { treeId = ViewBag.Id, relativeId = i })" class="btn btn-sm btn-danger">Löschen</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    
+    <a href="@Url.Action("AddRelative", new { id = ViewBag.Id })" class="btn btn-success mb-3">Verwandten hinzufügen</a>
+    
+    <br/>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Zurück</a>
+    <a href="@Url.Action("EditTree", new { id = ViewBag.Id })" class="btn btn-warning">Bearbeiten</a>
+</div>

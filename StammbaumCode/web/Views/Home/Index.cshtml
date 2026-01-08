@@ -1,0 +1,38 @@
+@model List<FamilyTree.Models.Tree>
+
+<div class="container mt-5">
+    <h1>Garten Eden - Stammbaum</h1>
+    
+    <a href="@Url.Action("CreateTree")" class="btn btn-primary mb-3">Neuer Stammbaum</a>
+    
+    @if (Model.Count == 0)
+    {
+        <p>Keine Stammbäume vorhanden.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Vorname</th>
+                    <th>Nachname</th>
+                    <th>Aktionen</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    var person = Model[i].PersonForTree;
+                    <tr>
+                        <td>@person.Firstname</td>
+                        <td>@person.Lastname</td>
+                        <td>
+                            <a href="@Url.Action("ViewTree", new { id = i })" class="btn btn-sm btn-info">Anzeigen</a>
+                            <a href="@Url.Action("EditTree", new { id = i })" class="btn btn-sm btn-warning">Bearbeiten</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

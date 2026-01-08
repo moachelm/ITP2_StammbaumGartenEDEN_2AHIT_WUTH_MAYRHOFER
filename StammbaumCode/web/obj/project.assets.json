@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "FamilyTree.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/FamilyTree.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FamilyTree.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FamilyTree.Models/1.0.0": {
+      "type": "project",
+      "path": "../src/FamilyTree.Models.csproj",
+      "msbuildProject": "../src/FamilyTree.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "FamilyTree.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\micha\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "c:\\Users\\micha\\Documents\\3AHIT_2025_2026\\ITP_KL\\Wuth_Mayrhofe_Stammbaum\\Prgm\\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\\StammbaumCode\\web\\FamilyTreeWeb.csproj",
+      "projectName": "FamilyTreeWeb",
+      "projectPath": "c:\\Users\\micha\\Documents\\3AHIT_2025_2026\\ITP_KL\\Wuth_Mayrhofe_Stammbaum\\Prgm\\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\\StammbaumCode\\web\\FamilyTreeWeb.csproj",
+      "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\micha\\Documents\\3AHIT_2025_2026\\ITP_KL\\Wuth_Mayrhofe_Stammbaum\\Prgm\\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\\StammbaumCode\\web\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "c:\\Users\\micha\\Documents\\3AHIT_2025_2026\\ITP_KL\\Wuth_Mayrhofe_Stammbaum\\Prgm\\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\\StammbaumCode\\src\\FamilyTree.Models.csproj": {
+              "projectPath": "c:\\Users\\micha\\Documents\\3AHIT_2025_2026\\ITP_KL\\Wuth_Mayrhofe_Stammbaum\\Prgm\\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\\StammbaumCode\\src\\FamilyTree.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

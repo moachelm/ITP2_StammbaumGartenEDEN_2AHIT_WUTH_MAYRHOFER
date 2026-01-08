@@ -1,0 +1,42 @@
+@{
+    ViewBag.Title = "Neuen Stammbaum erstellen";
+}
+
+<div class="container mt-5">
+    <h1>Neuen Stammbaum erstellen</h1>
+    
+    @if (!string.IsNullOrEmpty(ViewBag.Error))
+    {
+        <div class="alert alert-danger">@ViewBag.Error</div>
+    }
+    
+    <form method="post" class="mt-3">
+        <div class="mb-3">
+            <label for="firstname" class="form-label">Vorname</label>
+            <input type="text" class="form-control" id="firstname" name="firstname" required>
+        </div>
+        
+        <div class="mb-3">
+            <label for="lastname" class="form-label">Nachname</label>
+            <input type="text" class="form-control" id="lastname" name="lastname" required>
+        </div>
+        
+        <div class="mb-3">
+            <label for="place" class="form-label">Wohnort</label>
+            <input type="text" class="form-control" id="place" name="place">
+        </div>
+        
+        <div class="mb-3">
+            <label for="birthday" class="form-label">Geburtsdatum (YYYY-MM-DD)</label>
+            <input type="text" class="form-control" id="birthday" name="birthday" required>
+        </div>
+        
+        <div class="mb-3">
+            <label for="deathdate" class="form-label">Sterbedatum (YYYY-MM-DD)</label>
+            <input type="text" class="form-control" id="deathdate" name="deathdate" required>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Erstellen</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary">Abbrechen</a>
+    </form>
+</div>
