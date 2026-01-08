@@ -97,4 +97,16 @@ public class Tree
         _relations.RemoveAt(index);
         return true;
     }
+
+    /// <summary>
+/// Remove all relations that reference the given Relative instance
+/// </summary>
+/// <param name="relative">The relative instance to remove</param>
+/// <returns>true if at least one relation was removed</returns>
+public bool RemoveRelative(Relative relative)
+{
+    if (relative == null) return false;
+    int removed = _relations.RemoveAll(r => ReferenceEquals(r.Person, relative));
+    return removed > 0;
+}
 }

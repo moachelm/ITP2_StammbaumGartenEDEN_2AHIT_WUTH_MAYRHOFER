@@ -313,5 +313,6 @@ public class Program
         var person = relatives[index];
         currentTree.RemoveRelative(person);
         Console.WriteLine("Person entfernt.");
+        
     }
 }
