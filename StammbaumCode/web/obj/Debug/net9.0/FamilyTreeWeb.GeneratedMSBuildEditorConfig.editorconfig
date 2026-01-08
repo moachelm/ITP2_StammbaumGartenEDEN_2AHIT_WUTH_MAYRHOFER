@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FamilyTreeWeb
 build_property.RootNamespace = FamilyTreeWeb
-build_property.ProjectDir = c:\Users\micha\Documents\3AHIT_2025_2026\ITP_KL\Wuth_Mayrhofe_Stammbaum\Prgm\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\StammbaumCode\web\
+build_property.ProjectDir = C:\Users\micha\Documents\3AHIT_2025_2026\ITP_KL\Wuth_Mayrhofe_Stammbaum\Prgm\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\StammbaumCode\web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\micha\Documents\3AHIT_2025_2026\ITP_KL\Wuth_Mayrhofe_Stammbaum\Prgm\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\StammbaumCode\web
+build_property.MSBuildProjectDirectory = C:\Users\micha\Documents\3AHIT_2025_2026\ITP_KL\Wuth_Mayrhofe_Stammbaum\Prgm\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\StammbaumCode\web
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[c:/Users/micha/Documents/3AHIT_2025_2026/ITP_KL/Wuth_Mayrhofe_Stammbaum/Prgm/ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER/StammbaumCode/web/Views/Home/AddRelative.cshtml]
+[C:/Users/micha/Documents/3AHIT_2025_2026/ITP_KL/Wuth_Mayrhofe_Stammbaum/Prgm/ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER/StammbaumCode/web/Views/Home/AddRelative.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRSZWxhdGl2ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/micha/Documents/3AHIT_2025_2026/ITP_KL/Wuth_Mayrhofe_Stammbaum/Prgm/ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER/StammbaumCode/web/Views/Home/CreateTree.cshtml]
+[C:/Users/micha/Documents/3AHIT_2025_2026/ITP_KL/Wuth_Mayrhofe_Stammbaum/Prgm/ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER/StammbaumCode/web/Views/Home/CreateTree.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVUcmVlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/micha/Documents/3AHIT_2025_2026/ITP_KL/Wuth_Mayrhofe_Stammbaum/Prgm/ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER/StammbaumCode/web/Views/Home/EditTree.cshtml]
+[C:/Users/micha/Documents/3AHIT_2025_2026/ITP_KL/Wuth_Mayrhofe_Stammbaum/Prgm/ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER/StammbaumCode/web/Views/Home/EditTree.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0VHJlZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/micha/Documents/3AHIT_2025_2026/ITP_KL/Wuth_Mayrhofe_Stammbaum/Prgm/ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER/StammbaumCode/web/Views/Home/Index.cshtml]
+[C:/Users/micha/Documents/3AHIT_2025_2026/ITP_KL/Wuth_Mayrhofe_Stammbaum/Prgm/ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER/StammbaumCode/web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/micha/Documents/3AHIT_2025_2026/ITP_KL/Wuth_Mayrhofe_Stammbaum/Prgm/ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER/StammbaumCode/web/Views/Home/ViewTree.cshtml]
+[C:/Users/micha/Documents/3AHIT_2025_2026/ITP_KL/Wuth_Mayrhofe_Stammbaum/Prgm/ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER/StammbaumCode/web/Views/Home/ViewTree.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3VHJlZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/micha/Documents/3AHIT_2025_2026/ITP_KL/Wuth_Mayrhofe_Stammbaum/Prgm/ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER/StammbaumCode/web/Views/Shared/_Layout.cshtml]
+[C:/Users/micha/Documents/3AHIT_2025_2026/ITP_KL/Wuth_Mayrhofe_Stammbaum/Prgm/ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER/StammbaumCode/web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/micha/Documents/3AHIT_2025_2026/ITP_KL/Wuth_Mayrhofe_Stammbaum/Prgm/ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER/StammbaumCode/web/Views/_Layout.cshtml]
+[C:/Users/micha/Documents/3AHIT_2025_2026/ITP_KL/Wuth_Mayrhofe_Stammbaum/Prgm/ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER/StammbaumCode/web/Views/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/micha/Documents/3AHIT_2025_2026/ITP_KL/Wuth_Mayrhofe_Stammbaum/Prgm/ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER/StammbaumCode/web/Views/_ViewStart.cshtml]
+[C:/Users/micha/Documents/3AHIT_2025_2026/ITP_KL/Wuth_Mayrhofe_Stammbaum/Prgm/ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER/StammbaumCode/web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

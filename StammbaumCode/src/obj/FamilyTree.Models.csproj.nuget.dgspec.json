@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\micha\\Documents\\3AHIT_2025_2026\\ITP_KL\\Wuth_Mayrhofe_Stammbaum\\Prgm\\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\\StammbaumCode\\src\\FamilyTree.Models.csproj": {}
+    "C:\\Users\\micha\\Documents\\3AHIT_2025_2026\\ITP_KL\\Wuth_Mayrhofe_Stammbaum\\Prgm\\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\\StammbaumCode\\src\\FamilyTree.Models.csproj": {}
   },
   "projects": {
-    "c:\\Users\\micha\\Documents\\3AHIT_2025_2026\\ITP_KL\\Wuth_Mayrhofe_Stammbaum\\Prgm\\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\\StammbaumCode\\src\\FamilyTree.Models.csproj": {
+    "C:\\Users\\micha\\Documents\\3AHIT_2025_2026\\ITP_KL\\Wuth_Mayrhofe_Stammbaum\\Prgm\\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\\StammbaumCode\\src\\FamilyTree.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\micha\\Documents\\3AHIT_2025_2026\\ITP_KL\\Wuth_Mayrhofe_Stammbaum\\Prgm\\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\\StammbaumCode\\src\\FamilyTree.Models.csproj",
+        "projectUniqueName": "C:\\Users\\micha\\Documents\\3AHIT_2025_2026\\ITP_KL\\Wuth_Mayrhofe_Stammbaum\\Prgm\\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\\StammbaumCode\\src\\FamilyTree.Models.csproj",
         "projectName": "FamilyTree.Models",
-        "projectPath": "c:\\Users\\micha\\Documents\\3AHIT_2025_2026\\ITP_KL\\Wuth_Mayrhofe_Stammbaum\\Prgm\\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\\StammbaumCode\\src\\FamilyTree.Models.csproj",
+        "projectPath": "C:\\Users\\micha\\Documents\\3AHIT_2025_2026\\ITP_KL\\Wuth_Mayrhofe_Stammbaum\\Prgm\\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\\StammbaumCode\\src\\FamilyTree.Models.csproj",
         "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\micha\\Documents\\3AHIT_2025_2026\\ITP_KL\\Wuth_Mayrhofe_Stammbaum\\Prgm\\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\\StammbaumCode\\src\\obj\\",
+        "outputPath": "C:\\Users\\micha\\Documents\\3AHIT_2025_2026\\ITP_KL\\Wuth_Mayrhofe_Stammbaum\\Prgm\\ITP2_StammbaumGartenEDEN_2AHIT_WUTH_MAYRHOFER\\StammbaumCode\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config"
